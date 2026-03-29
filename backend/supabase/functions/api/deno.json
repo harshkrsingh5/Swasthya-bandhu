@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["deno.window"],
+    "strict": false,
+    "types": []
+  },
+  "imports": {
+    "npm:hono@3": "https://esm.sh/hono@3",
+    "npm:hono@3/cors": "https://esm.sh/hono@3/cors",
+    "npm:hono@3/factory": "https://esm.sh/hono@3/factory",
+    "npm:jsonwebtoken": "https://esm.sh/jsonwebtoken@9",
+    "npm:@supabase/supabase-js@2": "https://esm.sh/@supabase/supabase-js@2",
+    "npm:@google/generative-ai": "https://esm.sh/@google/generative-ai",
+    "npm:twilio": "https://esm.sh/twilio@5",
+    "https://deno.land/x/bcrypt@v0.4.1/mod.ts": "https://deno.land/x/bcrypt@v0.4.1/mod.ts"
+  }
+}
