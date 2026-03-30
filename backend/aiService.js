@@ -211,7 +211,7 @@ function convertPlanToFHIR(patientId, plan, patientData) {
       });
     }
 
-    // 2. Map Nutrition/Diet to FHIR Activity (NutritionOrder intent)
+    // 2. Map Nutrition/Diet to FHIR Activity 
     if (plan.mealPlan && Array.isArray(plan.mealPlan)) {
       plan.mealPlan.forEach(meal => {
         carePlan.activity.push({
@@ -241,7 +241,7 @@ function convertPlanToFHIR(patientId, plan, patientData) {
        });
     }
 
-    // 4. Map Sleep/Routine
+    // 4. Map Routine
     if (plan.sleepRecommendations) {
        carePlan.activity.push({
           detail: {
